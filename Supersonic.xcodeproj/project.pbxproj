@@ -12,7 +12,7 @@
 		B000C5C91DA9F02C00401C8F /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000C5C81DA9F02C00401C8F /* PostData.swift */; };
 		B000C5CC1DA9F86900401C8F /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000C5CA1DA9F86900401C8F /* PostTableViewCell.swift */; };
 		B000C5CD1DA9F86900401C8F /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B000C5CB1DA9F86900401C8F /* PostTableViewCell.xib */; };
-		B000C5D31DAA305B00401C8F /* GoogleService-Info (2).plist in Resources */ = {isa = PBXBuildFile; fileRef = B000C5D21DAA305B00401C8F /* GoogleService-Info (2).plist */; };
+		B000C5D51DAA3AF700401C8F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B000C5D41DAA3AF700401C8F /* GoogleService-Info.plist */; };
 		B0B4CCA31DA950FB00D829B4 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B4CCA21DA950FB00D829B4 /* Const.swift */; };
 		B0B4CCA51DA952DC00D829B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B4CCA41DA952DC00D829B4 /* LoginViewController.swift */; };
 		B0B4CCA71DA9589500D829B4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B4CCA61DA9589500D829B4 /* SettingViewController.swift */; };
@@ -62,7 +62,7 @@
 		B000C5CA1DA9F86900401C8F /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		B000C5CB1DA9F86900401C8F /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 		B000C5CF1DAA28C100401C8F /* Supersonic-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Supersonic-Bridging-Header.h"; sourceTree = "<group>"; };
-		B000C5D21DAA305B00401C8F /* GoogleService-Info (2).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (2).plist"; sourceTree = "<group>"; };
+		B000C5D41DAA3AF700401C8F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B0B4CCA21DA950FB00D829B4 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		B0B4CCA41DA952DC00D829B4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B0B4CCA61DA9589500D829B4 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
@@ -181,7 +181,7 @@
 				B0CE5FB11DA933F0006F8652 /* Info.plist */,
 				B000C5C81DA9F02C00401C8F /* PostData.swift */,
 				B0B4CCA21DA950FB00D829B4 /* Const.swift */,
-				B000C5D21DAA305B00401C8F /* GoogleService-Info (2).plist */,
+				B000C5D41DAA3AF700401C8F /* GoogleService-Info.plist */,
 				B000C5CF1DAA28C100401C8F /* Supersonic-Bridging-Header.h */,
 				B0B4CCAA1DA9612100D829B4 /* AdobeCreativeSDKCore.framework */,
 				B0B4CCAB1DA9612100D829B4 /* AdobeCreativeSDKImage.framework */,
@@ -255,8 +255,8 @@
 			files = (
 				B0CE5FB01DA933F0006F8652 /* LaunchScreen.storyboard in Resources */,
 				B000C5CD1DA9F86900401C8F /* PostTableViewCell.xib in Resources */,
+				B000C5D51DAA3AF700401C8F /* GoogleService-Info.plist in Resources */,
 				B0CE5FAD1DA933F0006F8652 /* Assets.xcassets in Resources */,
-				B000C5D31DAA305B00401C8F /* GoogleService-Info (2).plist in Resources */,
 				B0CE5FAB1DA933F0006F8652 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
