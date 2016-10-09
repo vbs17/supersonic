@@ -61,6 +61,7 @@
 		B000C5C81DA9F02C00401C8F /* PostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		B000C5CA1DA9F86900401C8F /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		B000C5CB1DA9F86900401C8F /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		B000C5CF1DAA28C100401C8F /* Supersonic-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Supersonic-Bridging-Header.h"; sourceTree = "<group>"; };
 		B0B4CCA01DA94F3A00D829B4 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
 		B0B4CCA21DA950FB00D829B4 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		B0B4CCA41DA952DC00D829B4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -81,7 +82,6 @@
 		B0B4CCC71DA9623100D829B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		B0B4CCC91DA9623800D829B4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		B0B4CCCD1DA9DA6D00D829B4 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		B0B4CCD41DA9DD4A00D829B4 /* Supersonic-Bridging-Header.h  .h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Supersonic-Bridging-Header.h  .h"; sourceTree = "<group>"; };
 		B0CE5FA21DA933F0006F8652 /* Supersonic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Supersonic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CE5FA51DA933F0006F8652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0CE5FA71DA933F0006F8652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -182,7 +182,7 @@
 				B0B4CCA01DA94F3A00D829B4 /* GoogleService-Info (1).plist */,
 				B000C5C81DA9F02C00401C8F /* PostData.swift */,
 				B0B4CCA21DA950FB00D829B4 /* Const.swift */,
-				B0B4CCD41DA9DD4A00D829B4 /* Supersonic-Bridging-Header.h  .h */,
+				B000C5CF1DAA28C100401C8F /* Supersonic-Bridging-Header.h */,
 				B0B4CCAA1DA9612100D829B4 /* AdobeCreativeSDKCore.framework */,
 				B0B4CCAB1DA9612100D829B4 /* AdobeCreativeSDKImage.framework */,
 			);
