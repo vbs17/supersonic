@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		667AF03F37D706262ABA092D /* Pods_Supersonic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9390AB5326F3B8530A1840 /* Pods_Supersonic.framework */; };
+		B000C5C71DA9EF8E00401C8F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000C5C61DA9EF8E00401C8F /* HomeViewController.swift */; };
+		B000C5C91DA9F02C00401C8F /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000C5C81DA9F02C00401C8F /* PostData.swift */; };
+		B000C5CC1DA9F86900401C8F /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B000C5CA1DA9F86900401C8F /* PostTableViewCell.swift */; };
+		B000C5CD1DA9F86900401C8F /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B000C5CB1DA9F86900401C8F /* PostTableViewCell.xib */; };
+		B0B4CCA11DA94F3A00D829B4 /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = B0B4CCA01DA94F3A00D829B4 /* GoogleService-Info (1).plist */; };
+		B0B4CCA31DA950FB00D829B4 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B4CCA21DA950FB00D829B4 /* Const.swift */; };
+		B0B4CCA51DA952DC00D829B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B4CCA41DA952DC00D829B4 /* LoginViewController.swift */; };
+		B0B4CCA71DA9589500D829B4 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B4CCA61DA9589500D829B4 /* SettingViewController.swift */; };
+		B0B4CCA91DA95C0F00D829B4 /* ImageSelectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B4CCA81DA95C0F00D829B4 /* ImageSelectViewController.swift */; };
+		B0B4CCAF1DA9615900D829B4 /* AdobeCreativeSDKCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0B4CCAA1DA9612100D829B4 /* AdobeCreativeSDKCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B0B4CCB21DA9615D00D829B4 /* AdobeCreativeSDKImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B0B4CCAB1DA9612100D829B4 /* AdobeCreativeSDKImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		B0B4CCB41DA961C000D829B4 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B4CCB31DA961C000D829B4 /* libc++.tbd */; };
+		B0B4CCB61DA961CB00D829B4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B4CCB51DA961CB00D829B4 /* libz.tbd */; };
+		B0B4CCB81DA961D600D829B4 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B4CCB71DA961D600D829B4 /* libz.1.2.5.tbd */; };
+		B0B4CCBA1DA961E200D829B4 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B4CCB91DA961E200D829B4 /* libsqlite3.0.tbd */; };
+		B0B4CCBC1DA961EB00D829B4 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B4CCBB1DA961EB00D829B4 /* MobileCoreServices.framework */; };
+		B0B4CCBE1DA961F400D829B4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B4CCBD1DA961F400D829B4 /* SystemConfiguration.framework */; };
+		B0B4CCC01DA961FD00D829B4 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B4CCBF1DA961FD00D829B4 /* Accelerate.framework */; };
+		B0B4CCC21DA9621100D829B4 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B4CCC11DA9621100D829B4 /* CoreData.framework */; };
+		B0B4CCC41DA9621A00D829B4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B4CCC31DA9621A00D829B4 /* MessageUI.framework */; };
+		B0B4CCC61DA9622400D829B4 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B4CCC51DA9622400D829B4 /* OpenGLES.framework */; };
+		B0B4CCC81DA9623100D829B4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B4CCC71DA9623100D829B4 /* QuartzCore.framework */; };
+		B0B4CCCA1DA9623800D829B4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0B4CCC91DA9623800D829B4 /* StoreKit.framework */; };
+		B0B4CCCE1DA9DA6D00D829B4 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0B4CCCD1DA9DA6D00D829B4 /* PostViewController.swift */; };
 		B0CE5FA61DA933F0006F8652 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE5FA51DA933F0006F8652 /* AppDelegate.swift */; };
 		B0CE5FA81DA933F0006F8652 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CE5FA71DA933F0006F8652 /* ViewController.swift */; };
 		B0CE5FAB1DA933F0006F8652 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CE5FA91DA933F0006F8652 /* Main.storyboard */; };
@@ -14,7 +39,49 @@
 		B0CE5FB01DA933F0006F8652 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0CE5FAE1DA933F0006F8652 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B0B4CCB01DA9615900D829B4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B0B4CCB21DA9615D00D829B4 /* AdobeCreativeSDKImage.framework in Embed Frameworks */,
+				B0B4CCAF1DA9615900D829B4 /* AdobeCreativeSDKCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		65A61917C3323EDD90F673B6 /* Pods-Supersonic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supersonic.release.xcconfig"; path = "Pods/Target Support Files/Pods-Supersonic/Pods-Supersonic.release.xcconfig"; sourceTree = "<group>"; };
+		6E615C4235EF7DE64B8E70E3 /* Pods-Supersonic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Supersonic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Supersonic/Pods-Supersonic.debug.xcconfig"; sourceTree = "<group>"; };
+		B000C5C61DA9EF8E00401C8F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B000C5C81DA9F02C00401C8F /* PostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		B000C5CA1DA9F86900401C8F /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		B000C5CB1DA9F86900401C8F /* PostTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
+		B0B4CCA01DA94F3A00D829B4 /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		B0B4CCA21DA950FB00D829B4 /* Const.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
+		B0B4CCA41DA952DC00D829B4 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B0B4CCA61DA9589500D829B4 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		B0B4CCA81DA95C0F00D829B4 /* ImageSelectViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSelectViewController.swift; sourceTree = "<group>"; };
+		B0B4CCAA1DA9612100D829B4 /* AdobeCreativeSDKCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKCore.framework; sourceTree = "<group>"; };
+		B0B4CCAB1DA9612100D829B4 /* AdobeCreativeSDKImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdobeCreativeSDKImage.framework; sourceTree = "<group>"; };
+		B0B4CCB31DA961C000D829B4 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		B0B4CCB51DA961CB00D829B4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B0B4CCB71DA961D600D829B4 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		B0B4CCB91DA961E200D829B4 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		B0B4CCBB1DA961EB00D829B4 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B0B4CCBD1DA961F400D829B4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B0B4CCBF1DA961FD00D829B4 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B0B4CCC11DA9621100D829B4 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B0B4CCC31DA9621A00D829B4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		B0B4CCC51DA9622400D829B4 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B0B4CCC71DA9623100D829B4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B0B4CCC91DA9623800D829B4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		B0B4CCCD1DA9DA6D00D829B4 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		B0B4CCD41DA9DD4A00D829B4 /* Supersonic-Bridging-Header.h  .h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Supersonic-Bridging-Header.h  .h"; sourceTree = "<group>"; };
 		B0CE5FA21DA933F0006F8652 /* Supersonic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Supersonic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0CE5FA51DA933F0006F8652 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0CE5FA71DA933F0006F8652 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +89,7 @@
 		B0CE5FAC1DA933F0006F8652 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0CE5FAF1DA933F0006F8652 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0CE5FB11DA933F0006F8652 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9390AB5326F3B8530A1840 /* Pods_Supersonic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Supersonic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +97,61 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B4CCCA1DA9623800D829B4 /* StoreKit.framework in Frameworks */,
+				B0B4CCC81DA9623100D829B4 /* QuartzCore.framework in Frameworks */,
+				B0B4CCC61DA9622400D829B4 /* OpenGLES.framework in Frameworks */,
+				B0B4CCC41DA9621A00D829B4 /* MessageUI.framework in Frameworks */,
+				B0B4CCC21DA9621100D829B4 /* CoreData.framework in Frameworks */,
+				B0B4CCC01DA961FD00D829B4 /* Accelerate.framework in Frameworks */,
+				B0B4CCBE1DA961F400D829B4 /* SystemConfiguration.framework in Frameworks */,
+				B0B4CCBC1DA961EB00D829B4 /* MobileCoreServices.framework in Frameworks */,
+				B0B4CCBA1DA961E200D829B4 /* libsqlite3.0.tbd in Frameworks */,
+				B0B4CCB81DA961D600D829B4 /* libz.1.2.5.tbd in Frameworks */,
+				B0B4CCB61DA961CB00D829B4 /* libz.tbd in Frameworks */,
+				B0B4CCB41DA961C000D829B4 /* libc++.tbd in Frameworks */,
+				667AF03F37D706262ABA092D /* Pods_Supersonic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		524FB1A87453FB44FC0F1EEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E615C4235EF7DE64B8E70E3 /* Pods-Supersonic.debug.xcconfig */,
+				65A61917C3323EDD90F673B6 /* Pods-Supersonic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C0C6CCB3EBD6C46D3DD9175 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0B4CCC91DA9623800D829B4 /* StoreKit.framework */,
+				B0B4CCC71DA9623100D829B4 /* QuartzCore.framework */,
+				B0B4CCC51DA9622400D829B4 /* OpenGLES.framework */,
+				B0B4CCC31DA9621A00D829B4 /* MessageUI.framework */,
+				B0B4CCC11DA9621100D829B4 /* CoreData.framework */,
+				B0B4CCBF1DA961FD00D829B4 /* Accelerate.framework */,
+				B0B4CCBD1DA961F400D829B4 /* SystemConfiguration.framework */,
+				B0B4CCBB1DA961EB00D829B4 /* MobileCoreServices.framework */,
+				B0B4CCB91DA961E200D829B4 /* libsqlite3.0.tbd */,
+				B0B4CCB71DA961D600D829B4 /* libz.1.2.5.tbd */,
+				B0B4CCB51DA961CB00D829B4 /* libz.tbd */,
+				B0B4CCB31DA961C000D829B4 /* libc++.tbd */,
+				CF9390AB5326F3B8530A1840 /* Pods_Supersonic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B0CE5F991DA933F0006F8652 = {
 			isa = PBXGroup;
 			children = (
 				B0CE5FA41DA933F0006F8652 /* Supersonic */,
 				B0CE5FA31DA933F0006F8652 /* Products */,
+				524FB1A87453FB44FC0F1EEF /* Pods */,
+				9C0C6CCB3EBD6C46D3DD9175 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,12 +166,25 @@
 		B0CE5FA41DA933F0006F8652 /* Supersonic */ = {
 			isa = PBXGroup;
 			children = (
-				B0CE5FA51DA933F0006F8652 /* AppDelegate.swift */,
-				B0CE5FA71DA933F0006F8652 /* ViewController.swift */,
 				B0CE5FA91DA933F0006F8652 /* Main.storyboard */,
+				B000C5C61DA9EF8E00401C8F /* HomeViewController.swift */,
+				B0B4CCCD1DA9DA6D00D829B4 /* PostViewController.swift */,
+				B0B4CCA81DA95C0F00D829B4 /* ImageSelectViewController.swift */,
+				B0CE5FA51DA933F0006F8652 /* AppDelegate.swift */,
+				B0B4CCA61DA9589500D829B4 /* SettingViewController.swift */,
+				B0CE5FA71DA933F0006F8652 /* ViewController.swift */,
+				B0B4CCA41DA952DC00D829B4 /* LoginViewController.swift */,
+				B000C5CA1DA9F86900401C8F /* PostTableViewCell.swift */,
+				B000C5CB1DA9F86900401C8F /* PostTableViewCell.xib */,
 				B0CE5FAC1DA933F0006F8652 /* Assets.xcassets */,
 				B0CE5FAE1DA933F0006F8652 /* LaunchScreen.storyboard */,
 				B0CE5FB11DA933F0006F8652 /* Info.plist */,
+				B0B4CCA01DA94F3A00D829B4 /* GoogleService-Info (1).plist */,
+				B000C5C81DA9F02C00401C8F /* PostData.swift */,
+				B0B4CCA21DA950FB00D829B4 /* Const.swift */,
+				B0B4CCD41DA9DD4A00D829B4 /* Supersonic-Bridging-Header.h  .h */,
+				B0B4CCAA1DA9612100D829B4 /* AdobeCreativeSDKCore.framework */,
+				B0B4CCAB1DA9612100D829B4 /* AdobeCreativeSDKImage.framework */,
 			);
 			path = Supersonic;
 			sourceTree = "<group>";
@@ -71,9 +196,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0CE5FB41DA933F0006F8652 /* Build configuration list for PBXNativeTarget "Supersonic" */;
 			buildPhases = (
+				B3A476E134E8314C843A6C38 /* [CP] Check Pods Manifest.lock */,
 				B0CE5F9E1DA933F0006F8652 /* Sources */,
 				B0CE5F9F1DA933F0006F8652 /* Frameworks */,
 				B0CE5FA01DA933F0006F8652 /* Resources */,
+				2BFC34D073C2007E91594909 /* [CP] Embed Pods Frameworks */,
+				8F6B9E71211DFA172ED51F01 /* [CP] Copy Pods Resources */,
+				B0B4CCB01DA9615900D829B4 /* Embed Frameworks */,
+				B0B4CCCB1DA9625300D829B4 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -124,20 +254,91 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0CE5FB01DA933F0006F8652 /* LaunchScreen.storyboard in Resources */,
+				B000C5CD1DA9F86900401C8F /* PostTableViewCell.xib in Resources */,
 				B0CE5FAD1DA933F0006F8652 /* Assets.xcassets in Resources */,
 				B0CE5FAB1DA933F0006F8652 /* Main.storyboard in Resources */,
+				B0B4CCA11DA94F3A00D829B4 /* GoogleService-Info (1).plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BFC34D073C2007E91594909 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Supersonic/Pods-Supersonic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F6B9E71211DFA172ED51F01 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Supersonic/Pods-Supersonic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0B4CCCB1DA9625300D829B4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/AdobeCreativeSDKCore.framework/strip-frameworks.sh\"";
+		};
+		B3A476E134E8314C843A6C38 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B0CE5F9E1DA933F0006F8652 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B4CCA91DA95C0F00D829B4 /* ImageSelectViewController.swift in Sources */,
+				B000C5C91DA9F02C00401C8F /* PostData.swift in Sources */,
+				B0B4CCA71DA9589500D829B4 /* SettingViewController.swift in Sources */,
+				B0B4CCCE1DA9DA6D00D829B4 /* PostViewController.swift in Sources */,
+				B000C5C71DA9EF8E00401C8F /* HomeViewController.swift in Sources */,
+				B0B4CCA51DA952DC00D829B4 /* LoginViewController.swift in Sources */,
 				B0CE5FA81DA933F0006F8652 /* ViewController.swift in Sources */,
+				B000C5CC1DA9F86900401C8F /* PostTableViewCell.swift in Sources */,
 				B0CE5FA61DA933F0006F8652 /* AppDelegate.swift in Sources */,
+				B0B4CCA31DA950FB00D829B4 /* Const.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,23 +449,35 @@
 		};
 		B0CE5FB51DA933F0006F8652 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E615C4235EF7DE64B8E70E3 /* Pods-Supersonic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Supersonic",
+				);
 				INFOPLIST_FILE = Supersonic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Supersonic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supersonic/Supersonic-Bridging-Header.h";
 			};
 			name = Debug;
 		};
 		B0CE5FB61DA933F0006F8652 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65A61917C3323EDD90F673B6 /* Pods-Supersonic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Supersonic",
+				);
 				INFOPLIST_FILE = Supersonic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.Supersonic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supersonic/Supersonic-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -287,6 +500,7 @@
 				B0CE5FB61DA933F0006F8652 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
